@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"player_obj",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_ground",
+  "eventList":[],
   "managed":true,
-  "name":"player_obj",
+  "name":"obj_ground",
   "overriddenProperties":[],
   "parent":{
     "name":"Blank Pixel Game",
@@ -20,7 +17,7 @@
   "physicsGroup":1,
   "physicsKinematic":false,
   "physicsLinearDamping":0.1,
-  "physicsObject":true,
+  "physicsObject":false,
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
@@ -34,10 +31,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"player_right_idle",
-    "path":"sprites/player_right_idle/player_right_idle.yy",
+    "name":"ground",
+    "path":"sprites/ground/ground.yy",
   },
   "spriteMaskId":null,
   "visible":true,

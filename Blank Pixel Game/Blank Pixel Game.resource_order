@@ -1,8 +1,10 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_ground","order":5,"path":"objects/obj_ground/obj_ground.yy",},
     {"name":"player_obj","order":2,"path":"objects/player_obj/player_obj.yy",},
-    {"name":"player_left_idle_1","order":3,"path":"sprites/player_left_idle_1/player_left_idle_1.yy",},
-    {"name":"player_right_idle","order":1,"path":"sprites/player_right_idle/player_right_idle.yy",},
+    {"name":"ground","order":4,"path":"sprites/ground/ground.yy",},
+    {"name":"player_left_idle_1","order":7,"path":"sprites/player_left_idle_1/player_left_idle_1.yy",},
+    {"name":"player_right_idle","order":6,"path":"sprites/player_right_idle/player_right_idle.yy",},
   ],
 }
