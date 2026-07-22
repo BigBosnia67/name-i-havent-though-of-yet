@@ -1,0 +1,14 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_ground","order":5,"path":"objects/obj_ground/obj_ground.yy",},
+    {"name":"player_obj","order":2,"path":"objects/player_obj/player_obj.yy",},
+    {"name":"ground","order":4,"path":"sprites/ground/ground.yy",},
+    {"name":"player_left_idle_2","order":8,"path":"sprites/player_left_idle_2/player_left_idle_2.yy",},
+    {"name":"player_left_jump_3","order":12,"path":"sprites/player_left_jump_3/player_left_jump_3.yy",},
+    {"name":"player_left_running_2","order":10,"path":"sprites/player_left_running_2/player_left_running_2.yy",},
+    {"name":"player_right_idle_1","order":7,"path":"sprites/player_right_idle_1/player_right_idle_1.yy",},
+    {"name":"player_right_jump_2","order":11,"path":"sprites/player_right_jump_2/player_right_jump_2.yy",},
+    {"name":"player_right_running_1","order":9,"path":"sprites/player_right_running_1/player_right_running_1.yy",},
+  ],
+}

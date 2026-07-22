@@ -1,0 +1,42 @@
+{
+  "$GMProject":"v1",
+  "%Name":"Blank Pixel Game",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2026.0.0.16",
+  },
+  "name":"Blank Pixel Game",
+  "resources":[
+    {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},},
+    {"id":{"name":"player_obj","path":"objects/player_obj/player_obj.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"ground","path":"sprites/ground/ground.yy",},},
+    {"id":{"name":"player_left_idle_2","path":"sprites/player_left_idle_2/player_left_idle_2.yy",},},
+    {"id":{"name":"player_left_jump_3","path":"sprites/player_left_jump_3/player_left_jump_3.yy",},},
+    {"id":{"name":"player_left_running_2","path":"sprites/player_left_running_2/player_left_running_2.yy",},},
+    {"id":{"name":"player_right_idle_1","path":"sprites/player_right_idle_1/player_right_idle_1.yy",},},
+    {"id":{"name":"player_right_jump_2","path":"sprites/player_right_jump_2/player_right_jump_2.yy",},},
+    {"id":{"name":"player_right_running_1","path":"sprites/player_right_running_1/player_right_running_1.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}
