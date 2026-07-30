@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ground",
+  "%Name":"wall_obj",
   "eventList":[],
   "managed":true,
-  "name":"obj_ground",
+  "name":"wall_obj",
   "overriddenProperties":[],
   "parent":{
     "name":"Blank Pixel Game",
@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"ground",
-    "path":"sprites/ground/ground.yy",
+    "name":"wall",
+    "path":"sprites/wall/wall.yy",
   },
   "spriteMaskId":null,
   "visible":true,

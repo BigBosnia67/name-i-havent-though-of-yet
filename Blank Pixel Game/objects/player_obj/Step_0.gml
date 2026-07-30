@@ -1,19 +1,58 @@
-move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
-move_x = move_x * move_speed;
-if place_meeting(x, y+2, obj_ground)
-{
-	move_y = 0;
+//player input
 
-	if keyboard_check(vk_space) move_y = -jump_speed;
-}
-else if move_y < 10
+key_left = keyboard_check(ord("A"));
+key_right = keyboard_check(ord("D"));
+key_jump = keyboard_check_pressed(vk_space);
+
+//calculate movement
+var move = key_right - key_left;
+
+hsp = move * walksp;
+
+vsp = vsp + grv; 
+
+
+if (place_meeting(x,y+1,parent_platform_obj))  and (key_jump)
 {
-	move_y += 1;
+		vsp = -7;
+	
 }
 
-move_and_collide(move_x, move_y, obj_ground, 4, 0, 0, move_speed, -1);
-
-if move_x != 0 
+//wall jump
+if (place_meeting(x+hsp,y,parent_platform_obj)) and (key_jump)
 {
-	image_xscale = sign(move_x);
+	vsp = -7;
+	hsp = -3 * move;
 }
+
+//horizontal collision
+if (place_meeting(x+hsp,y,parent_platform_obj))
+{
+	while (!place_meeting(x+sign(hsp),y,parent_platform_obj))
+	{
+		x = x + sign(hsp);
+	}
+	hsp = 0;
+}	
+x = x + hsp;
+
+
+//vertical collision
+if (place_meeting(x,y+vsp,parent_platform_obj))
+{
+	while (!place_meeting(x,y+sign(vsp)+1,parent_platform_obj))
+	{
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}	
+
+y = y + vsp;
+
+if (hsp != 0 or vsp != 0) {
+	sprite_index = player_right_running_1;
+}
+else {
+	sprite_index = player_right_idle_1;
+}
+if (hsp < 0) image_xscale = -1;

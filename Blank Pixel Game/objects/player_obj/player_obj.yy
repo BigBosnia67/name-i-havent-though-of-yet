@@ -34,10 +34,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"player_right_idle",
-    "path":"sprites/player_right_idle/player_right_idle.yy",
+    "name":"player_right_idle_1",
+    "path":"sprites/player_right_idle_1/player_right_idle_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
