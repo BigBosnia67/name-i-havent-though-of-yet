@@ -1,9 +1,0 @@
-hsp = 0;
-vsp = 0;
-grv = 0.3;
-walksp = 8;
-jumpsp = -10;
-accel = 0.5;
-fric = 0.5;
-wall_slide = false;
-grounded = false;
